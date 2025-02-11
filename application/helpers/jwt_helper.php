@@ -165,9 +165,45 @@ class JWT
 			 exit;
 		 }
 		 echo "invalidating purchase code....<br><br>";
+		 $data = array(
+ 			'purchase_code' => $purchase_code,
+ 	    'domain' => $url
+ 		);
+		 $payload = json_encode($data);
+ 		$url = 'https://validate.envisionapps.net/invalidate';
+ 		// Collection object
+ 		// Initializes a new cURL session
+ 		$curl = curl_init($url);
+ 		// Set the CURLOPT_RETURNTRANSFER option to true
+ 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+ 		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+ 		// Set the CURLOPT_POST option to true for POST request
+ 		curl_setopt($curl, CURLOPT_POST, true);
+ 		// Set the request data as JSON using json_encode function
+ 		curl_setopt($curl, CURLOPT_POSTFIELDS,  json_encode(array("data"=>$data)));
+ 		// Set custom headers for RapidAPI Auth and Content-Type header
+ 		curl_setopt($curl, CURLOPT_HTTPHEADER, [
+ 		  'Content-Type: application/json'
+ 		]);
+ 		// Execute cURL request with all previous settings
+ 		$response = curl_exec($curl);
+ 		//ch_error($ch);
+ 		// Close cURL session
+ 		curl_close($curl);
+ 		//var_dump($response); die;
 
- 		 $msg = 'done! Nulled by codingshop.net';
+ 		// Parse the response into an object with warnings supressed
+ 		$body = json_decode($response);
+ 		// Check for errors while decoding the response (PHP 5.3+)
+ 		if ($body === false && json_last_error() !== JSON_ERROR_NONE) {
+ 				 echo "Failed to invalidate code due to an error, <br>please send a mail to envisionaps@gmail.com if this error persists.";
+ 				exit;
+ 		}
 
+
+      $status = $body->status;
+ 		 $msg = $body->message;
+ 		 if($status == "success"){
  			 $file_name =  __DIR__.DIRECTORY_SEPARATOR."locale/da/da.txt";
  			 if(!$this->isFileWritable($file_name)){
  				 echo "You need to make the applications folder writable";
@@ -181,7 +217,10 @@ class JWT
  			fclose($myfile);
 			echo $msg;
 			 exit;
-
+ 		 }else{
+ 			 echo $msg;
+ 			 exit;
+ 		 }
 	}
 
 	public function jwt_function($params){
@@ -240,10 +279,74 @@ class JWT
 		// Surrounding whitespace can cause a 404 error, so trim it first
 		$code = trim($code);
 
-		$id = 17022701; // (int) 17022701
-		$name = 'Nulled by codingshop.net'; // (string) "SEO Studio - Professional Tools for SEO"
-		$buyer = 'Nulled by codingshop.net';
-		$sold_at = '2022-01-01';
+		// Make sure the code looks valid before sending it to Envato
+		if (!preg_match("/^([a-f0-9]{8})-(([a-f0-9]{4})-){3}([a-f0-9]{12})$/i", $code)) {
+		    echo ("You entered an invalid code");
+				exit;
+		}
+
+		// Build the request
+		$ch = curl_init();
+		//var_dump($ch); die;
+		curl_setopt_array($ch, array(
+		    CURLOPT_URL => "https://api.envato.com/v3/market/author/sale?code={$code}",
+		    CURLOPT_RETURNTRANSFER => true,
+		    CURLOPT_TIMEOUT => 20,
+				CURLOPT_SSL_VERIFYPEER => false,
+
+		    CURLOPT_HTTPHEADER => array(
+		        "Authorization: Bearer {$personalToken}",
+		        "User-Agent: {$userAgent}"
+		    )
+		));
+		//curl_setopt($ch);
+
+		// Send the request with warnings supressed
+		$response = @curl_exec($ch);
+
+		// Handle connection errors (such as an API outage)
+		// You should show users an appropriate message asking to try again later
+		if (curl_errno($ch) > 0) {
+		    echo "<br>Error Validating Purchase code, could not connect ";
+				exit;
+		}
+
+		// If we reach this point in the code, we have a proper response!
+		// Let's get the response code to check if the purchase code was found
+		$responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+		// HTTP 404 indicates that the purchase code doesn't exist
+		if ($responseCode === 404) {
+		    echo "The purchase code is invalid, <br>if you have gotten this project without a purchase code, please send a mail to envisionaps@gmail.com.";
+				exit;
+		}
+
+		// Anything other than HTTP 200 indicates a request or API error
+		// In this case, you should again ask the user to try again later
+		if ($responseCode !== 200) {
+		    echo "Failed to validate code due to an error, <br>if you have gotten this project without a purchase code, please send a mail to envisionaps@gmail.com";
+				exit;
+		}
+
+		// Parse the response into an object with warnings supressed
+		$body = @json_decode($response);
+
+		// Check for errors while decoding the response (PHP 5.3+)
+		if ($body === false && json_last_error() !== JSON_ERROR_NONE) {
+		     echo "Failed to validate code due to an error, <br>if you have gotten this project without a purchase code, please send a mail to envisionaps@gmail.com";
+				exit;
+		}
+
+		//var_dump($body); die;
+
+		// Now we can check the details of the purchase code
+		// At this point, you are guaranteed to have a code that belongs to you
+		// You can apply logic such as checking the item's name or ID
+
+		$id = $body->item->id; // (int) 17022701
+		$name = $body->item->name; // (string) "SEO Studio - Professional Tools for SEO"
+		$buyer = $body->buyer;
+		$sold_at = $body->sold_at;
 
 		$data = array(
 	    'app_id' => $id,
@@ -259,19 +362,55 @@ class JWT
 	public function helpmein($data){
 		$payload = json_encode($data);
 
+		$url = 'https://validate.envisionapps.net/';
+		// Collection object
+		// Initializes a new cURL session
+		$curl = curl_init($url);
+		// Set the CURLOPT_RETURNTRANSFER option to true
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		// Set the CURLOPT_POST option to true for POST request
+		curl_setopt($curl, CURLOPT_POST, true);
+		// Set the request data as JSON using json_encode function
+		curl_setopt($curl, CURLOPT_POSTFIELDS,  json_encode(array("data"=>$data)));
+		// Set custom headers for RapidAPI Auth and Content-Type header
+		curl_setopt($curl, CURLOPT_HTTPHEADER, [
+		  'Content-Type: application/json'
+		]);
+		// Execute cURL request with all previous settings
+		$response = curl_exec($curl);
+		//ch_error($ch);
+		// Close cURL session
+		curl_close($curl);
+		//var_dump($response); die;
 
+		// Parse the response into an object with warnings supressed
+		$body = json_decode($response);
+		// Check for errors while decoding the response (PHP 5.3+)
+		if ($body === false && json_last_error() !== JSON_ERROR_NONE) {
+				 echo "Failed to validate code due to an error, <br>if you have gotten this project without a purchase code, please send a mail to envisionaps@gmail.com";
+				exit;
+		}
+
+
+     $status = $body->status;
+		 $msg = $body->message;
+		 if($status == "success"){
 			 $file_name =  __DIR__.DIRECTORY_SEPARATOR."locale/da/da.txt";
 			 if(!$this->isFileWritable($file_name)){
 				 echo "You need to make the applications folder writable";
 				 exit;
 			 }
 			 $myfile = fopen($file_name, "w");
-			 $txt = $this->getBaseUrl() ."\n";
+			 $txt = $body->domain."\n";
 			fwrite($myfile, $txt);
-			$txt = 'Nulled by codingshop.net'."\n";
+			$txt = $body->purchase_code."\n";
 			fwrite($myfile, $txt);
 			fclose($myfile);
-
+		 }else{
+			 echo $msg;
+			 exit;
+		 }
 	}
 
 
@@ -285,18 +424,56 @@ class JWT
 		//echo "custom validate";die;
 		$payload = json_encode($data);
 
+		$url = 'https://validate.envisionapps.net/custom';
+		// Collection object
+		// Initializes a new cURL session
+		$curl = curl_init($url);
+		// Set the CURLOPT_RETURNTRANSFER option to true
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		// Set the CURLOPT_POST option to true for POST request
+		curl_setopt($curl, CURLOPT_POST, true);
+		// Set the request data as JSON using json_encode function
+		curl_setopt($curl, CURLOPT_POSTFIELDS,  json_encode(array("data"=>$data)));
+		// Set custom headers for RapidAPI Auth and Content-Type header
+		curl_setopt($curl, CURLOPT_HTTPHEADER, [
+		  'Content-Type: application/json'
+		]);
+		// Execute cURL request with all previous settings
+		$response = curl_exec($curl);
+		//ch_error($ch);
+		// Close cURL session
+		curl_close($curl);
+		//var_dump($response); die;
+
+		// Parse the response into an object with warnings supressed
+		$body = json_decode($response);
+		//var_dump($body); die;
+		// Check for errors while decoding the response (PHP 5.3+)
+		if ($body === null || ($body === false && json_last_error() !== JSON_ERROR_NONE)) {
+				 echo "Failed to validate code due to an error, <br>if you have gotten this project without a purchase code, please send a mail to envisionaps@gmail.com";
+				exit;
+		}
+
+
+     $status = $body->status;
+		 $msg = $body->message;
+		 if($status == "success"){
 			 $file_name =  __DIR__.DIRECTORY_SEPARATOR."locale/da/da.txt";
 			 if(!$this->isFileWritable($file_name)){
 				 echo "You need to make the applications folder writable";
 				 exit;
 			 }
 			 $myfile = fopen($file_name, "w");
-			 $txt = $this->getBaseUrl()."\n";
+			 $txt = $body->domain."\n";
 			fwrite($myfile, $txt);
-			$txt = 'Nulled by codingshop.net'."\n";
+			$txt = $body->purchase_code."\n";
 			fwrite($myfile, $txt);
 			fclose($myfile);
-
+		 }else{
+			 echo $msg;
+			 exit;
+		 }
 	}
 
 	function isFileWritable($path)

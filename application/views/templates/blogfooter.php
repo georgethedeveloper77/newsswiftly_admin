@@ -4,7 +4,7 @@
 
     <div class="footer-bottom row align-items-center">
       <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-       Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="<?php echo site_url(); ?>" target="_blank">NewsSwiftly</a>
+       Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="<?php echo site_url(); ?>" target="_blank">NewsExtra</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
       <div class="col-lg-4 col-md-12 footer-social">
         <a href="<?php echo $this->session->userdata ( 'facebook_page_url' ); ?>"><i class="fa fa-facebook"></i></a>

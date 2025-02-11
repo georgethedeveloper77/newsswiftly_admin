@@ -11,21 +11,6 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     <title>Admin Dashboard</title>
     <!-- Favicon-->
     <link rel="icon" href="<?php echo asset_url('images/favicon.ico'); ?>" type="image/x-icon">
-	
-	<meta name="description" content="Stay updated with the latest news on politics, sports, technology, and entertainment from around the world at NewsSwiftly.">
-    <meta name="keywords" content="latest news, breaking news, world news, NewsSwiftly">
-    <link rel="canonical" href="https://newsswiftly.com">
-
-    <!-- Facebook Open Graph tags for better social media integration -->
-    <meta property="og:title" content="NewsSwiftly - Latest News Updates">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://newsswiftly.com">
-    <meta property="og:image" content="https://newsswiftly.com/assets/img/newsswiftly.jpg">
-    <meta property="og:description" content="Get the latest and most comprehensive news updates from NewsSwiftly. Your go-to source for news from all over the globe.">
-    <meta property="og:site_name" content="NewsSwiftly">
-    <meta property="og:locale" content="en_US">
-    <!-- If using Facebook insights -->
-    <meta property="fb:app_id" content="894572385107506">
 
     <!--REQUIRED PLUGIN CSS-->
 
@@ -86,7 +71,7 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
           <div class="navbar-header">
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
-              <a class="navbar-brand" href="<?php echo site_url(); ?>">ADMIN DASHBOARD</a>
+              <a class="navbar-brand" href="<?php echo site_url(); ?>">NewsExtra - ADMIN DASHBOARD</a>
           </div>
 
           <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -286,7 +271,7 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
           <!-- Footer -->
           <div class="legal">
               <div class="copyright">
-                  &copy; <?php echo date('Y'); ?> <a href="javascript:void(0);">Admin Dashboard</a>.
+                  &copy; <?php echo date('Y'); ?> <a href="javascript:void(0);">NewsExtra - Admin Dashboard</a>.
               </div>
 
           </div>
