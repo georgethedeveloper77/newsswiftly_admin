@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 //Codecanyon or envisionapps purchase token
-$config['purchase-code'] = "YOUR PURCHASE CODE SHOULD BE HERE";
+$config['purchase-code'] = "Nulled by codingshop.net";
 //enable the invalidate option to revoke your access to this project
 $config['invalidate'] = FALSE;
 
