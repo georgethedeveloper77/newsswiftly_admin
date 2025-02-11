@@ -51,8 +51,8 @@
                                   <div class="form-line">
                                       <label>Requires Subscription?(do users need to subscribe to stream this radio)</label>
                                       <select class="form-control" name="isSubscribe" required="" autofocus="">
-                                        <option value="0" <?php echo $link->$radio==0?"selected":""; ?>>YES</option>
-                                        <option value="1" <?php echo $link->$radio==1?"selected":""; ?>>NO</option>
+                                        <option value="0" <?php echo $radio->isSubscribe==0?"selected":""; ?>>YES</option>
+                                        <option value="1" <?php echo $radio->isSubscribe==1?"selected":""; ?>>NO</option>
                                       </select>
                                   </div>
                               </div>

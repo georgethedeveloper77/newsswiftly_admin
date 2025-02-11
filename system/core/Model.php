@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2019 - 2022, CodeIgniter Foundation
+ * Copyright (c) 2014 - 2017, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,9 +29,8 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
- * @copyright	Copyright (c) 2019 - 2022, CodeIgniter Foundation (https://codeigniter.com/)
- * @license	https://opensource.org/licenses/MIT	MIT License
+ * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
  * @filesource
@@ -45,20 +44,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/userguide3/libraries/config.html
+ * @link		https://codeigniter.com/user_guide/libraries/config.html
  */
- #[\AllowDynamicProperties]
 class CI_Model {
 
 	/**
 	 * Class constructor
 	 *
-	 * @link	https://github.com/bcit-ci/CodeIgniter/issues/5332
 	 * @return	void
 	 */
-	public function __construct() {
-    $this->load->database();
-  }
+	public function __construct()
+	{
+		log_message('info', 'Model Class Initialized');
+		$this->load->database();
+	}
+
+	// --------------------------------------------------------------------
 
 	/**
 	 * __get magic
@@ -76,5 +77,28 @@ class CI_Model {
 		//	most likely a typo in your model code.
 		return get_instance()->$key;
 	}
+
+	public function verify_category($title){
+        $sth = $this->db->query("SELECT * FROM categories WHERE title =? ",array($title
+        ));
+        $count = $sth->num_rows();
+        if($count > 0) {
+          return true;
+        }else{
+          return false;
+        }
+    }
+
+    public function insert_category($title,$description){
+			$data = array(
+        'title' => $title,
+        'description' => $description
+      );
+      if($this->db->insert('categories', $data)){
+        return true;
+      }else{
+        return false;
+      }
+    }
 
 }
