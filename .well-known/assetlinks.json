@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mindhunter.newsflash",
+      "sha256_cert_fingerprints": [
+        "99:EB:19:B8:9F:79:47:4F:02:54:4A:4D:49:9C:F3:07:66:2F:1B:CC:54:0E:BD:06:B8:42:8F:F2:72:98:EB:AE"
+      ]
+    }
+  }
+]

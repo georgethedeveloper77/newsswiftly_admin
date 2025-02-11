@@ -1,0 +1,727 @@
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCXIJgqnII2ZOINSWNOGFThA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCupvZG-5ko_eiXAupbDfxWw&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCDRIjKy6eZOvKtOELtTdeUA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCZ7wY7MRDSygp63HIEfdQZA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCNAf1k0yIjyGu3k9BwAg3lg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCcw05gGzjLIs5dnxGkQHMvw&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC83jt4dlz1Gjl58fzQrrKZg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCBi2mrWuNuyYy4gbM6fU18Q&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCH1oRy1dINbMVp3UFWrKP0w&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCknLrEdhRCp1aegoMqRaCZg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UChBQgieUidXV1CmDxSdRm3g&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCqBJ47FjJcl61fmSbcadAVg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCvhPRRiwI1_p4OBsY0yz6mg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCcyq283he07B7_KUX07mmtA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCK7IIV6Q2junGSdYK3BmZMg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC1Ydgfp2x8oLYG66KZHXs1g&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC2KfG7GPb7t3GmIYfMgrMyw&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCT9CHbGeQlJvl3HAZok_DMA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCsooa4yRKGN_zEE8iknghZA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC0k238zFx-Z8xFH0sxCrPJg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCKoLQ6r7vmQftY-8iFizRAQ&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCyFZMEnm1il5Wv3a6tPscbA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCsVcseUYbYjldc-XgcsiEbg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCaXkIU1QidjPwiAYu6GcHjg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC8p1vwvWtl6T73JiExfWs1g&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCK7tptUDHh-RYDsdxO1-5QQ&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCrM7B7SL_g1edFOnmj-SDKg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UC4MZ7zUHb5eAxU75Dc_nqdQ&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCNye-wNBqNL5ZzHSJj3l8Bg&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCLA_DiR1FfKNvjuUpBHmylQ&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCwz-6fzx8JsIok1D3dIVGEA&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCl6ICaB9meBcSMQ5Zmr446g&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: file_get_contents(https://www.googleapis.com/youtube/v3/search?order=date&amp;part=snippet&amp;channelId=UCcBNWxvAXH-nTAzOeuuLHgw&amp;maxResults=50&amp;key=AIzaSyC4Uvy79W6AK_b2z9FqgUATJcRSwFB5d5Y): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 32</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Notice</p>
+<p>Message: Trying to get property 'items' of non-object</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+<h4>A PHP Error was encountered</h4>
+<p>Severity: Warning</p>
+<p>Message: Invalid argument supplied for foreach()</p>
+<p>Filename: models/Videos_model.php</p>
+<p>Line Number: 34</p>
+</div>ok
